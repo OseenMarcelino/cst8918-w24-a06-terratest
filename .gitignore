@@ -29,3 +29,26 @@
 .vscode
 .idea
 .idea
+# Ignore Go module files
+/go.sum
+/go.mod
+
+# Ignore Go vendor directory
+/vendor/
+
+# Ignore Go module cache directory
+/pkg/mod/
+
+# Ignore Go build artifacts
+*.a
+*.out
+*.exe
+
+# Ignore Go test result files
+*.test
+*.txt
+
+.terraform.lock.hcl
+go1.21.3.linux-amd64.tar.gz
+go.mod
+go.sum
